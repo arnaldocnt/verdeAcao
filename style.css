@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+header {
+  height: 15%;
+  width: 100%;
+  background-color: #66BB6A;
+  color: #FFFFFF;
+}
+header h2 {
+  width: 60%;
+  margin-top: 5%;
+  padding-left: 25%;
+  display: inline-block;
+  font-family: "Sansita Swashed", sistem-ui;
+}
+header nav {
+  width: 35%;
+  display: inline-block;
+  text-decoration-color: white;
+  text-align: end;
+}
+header a {
+  margin-right: 20px;
+  color: white;
+}
+
+.background {
+  background-image: url("./assets/verde1.png");
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #FFFFFF;
+  text-align: center;
+  padding-top: 35vh;
+}
+.background h1 {
+  font-family: "Sansita Swashed", sistem-ui;
+}
+.background p {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 355px;
+  width: 50%;
+}/*# sourceMappingURL=style.css.map */
