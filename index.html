@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Sansita+Swashed:wght@300..900&display=swap"
+        rel="stylesheet">
     <title>Verde Ação</title>
 </head>
+
 <body>
     <header>
         <h2>Verde Ação</h2>
@@ -17,43 +21,72 @@
             <a href="#">Cadastre-se</a>
         </nav>
     </header>
-<main>
-    <section class="background">
-        <h1>Verde Ação</h1>
-        <p>Ser voluntário na Verde Ação é plantar esperança e colher transformação. Juntos, cuidamos do planeta e inspiramos mudanças reais!</p>
-        <button>Quero ser voluntário</button>
-    </section>
-    <section class="cards">
-        <article class="card">
-            <img src="./assets/girassol.png" alt="Imagem de campo de girassol">
-            <h3>Plantio de mudas</h3>
-            <p>Cada muda plantada ajuda a restaurar o meio ambiente</p>
-            <button>Ver mais</button>
-        </article>
-        <article class="card">
-            <img src="./assets/reciclagem.png" alt="Imagem de crianças com cartaz de reciclagem">
-            <h3>Educação Ambiental</h3>
-            <p>Promova oficinas e rodas de conversas</p>
-            <button>Ver mais</button>
-        </article>
-        <article class="card">
-            <img src="./assets/plantacao.png" alt="Imagem de plantio">
-            <h3>Cuidados</h3>
-            <p>Ajude a manter areas preservadas</p>
-            <button>Ver mais</button>
-        </article>
-        <article class="card">
-            <img src="./assets/verde2.png" alt="Imagem de floresta">
-            <h3>Mapeamento</h3>
-            <p>Identifique areas que precisam de mapeamento</p>
-            <button>Ver mais</button>
-        </article>
-    </section>
-    <section>
-        <form action="">
+    <main>
+        <section class="background">
+            <h1>Verde Ação</h1>
+            <p>Ser voluntário na Verde Ação é plantar esperança e colher transformação. Juntos, cuidamos do planeta e
+                inspiramos mudanças reais!</p>
+            <button>Quero ser voluntário</button>
+        </section>
+        <section class="cards">
+            <article class="card">
+                <img src="./assets/girassol.png" alt="Imagem de campo de girassol">
+                <h3>Plantio de mudas</h3>
+                <p>Cada muda plantada ajuda a restaurar o meio ambiente</p>
+                <button>Ver mais</button>
+            </article>
+            <article class="card">
+                <img src="./assets/reciclagem.png" alt="Imagem de crianças com cartaz de reciclagem">
+                <h3>Educação Ambiental</h3>
+                <p>Promova oficinas e rodas de conversas</p>
+                <button>Ver mais</button>
+            </article>
+            <article class="card">
+                <img src="./assets/plantacao.png" alt="Imagem de plantio">
+                <h3>Cuidados</h3>
+                <p>Ajude a manter areas preservadas</p>
+                <button>Ver mais</button>
+            </article>
+            <article class="card">
+                <img src="./assets/verde2.png" alt="Imagem de floresta">
+                <h3>Mapeamento</h3>
+                <p>Identifique areas que precisam de mapeamento</p>
+                <button>Ver mais</button>
+            </article>
+        </section>
+        <section class="formulario">
+            <form action="">
+                <h3>Cadastre-se como voluntário </h3>
+                <fieldset>
 
-        </form>
-    </section>
-</main>
+                    <legend>Faça parte de ações que transformam o mundo. Com pequenas atitudes, você pode gerar grandes
+                        impactos na natureza e na comunidade.</legend>
+
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome" placeholder="Nome" required>
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email " id="email"
+                    placeholder="E-mail" required>
+
+                    <label for="cidade">Cidade:</label>
+                    <input type="text" name="cidade" id="cidade"
+                    placeholder="Cidade" required>
+
+                    <label for="atividade">Atividade:</label>
+                    <select name="atividade" id="atividade">
+                        <option value="">Selecione Atividade</option>
+                    </select>
+
+                    <button type="submit">Cadastrar</button>
+                </fieldset>
+            </form>
+
+        </section>
+        <footer>
+            <p>© Todos os direitos reservados</p>
+        </footer>
+    </main>
 </body>
+
 </html>

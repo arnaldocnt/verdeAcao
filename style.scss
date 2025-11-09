@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 header {
@@ -10,32 +11,31 @@ header {
     width: 100%;
     background-color: #66BB6A;
     color: #FFFFFF;
+}
 
+h2 {
 
-    h2 {
+    width: 60%;
 
-        width: 60%;
+    margin-top: 1%;
+    padding-left: 15%;
+    padding-bottom: 70px;
 
-        margin-top: 1%;
-        padding-left: 25%;
-        padding-bottom: 70px;
+    display: inline-block;
+    font-family: "Sansita Swashed", system-ui;
+    font-size: 35px;
+}
 
-        display: inline-block;
-        font-family: "Sansita Swashed", system-ui;
-        font-size: 35px;
-    }
+nav {
+    width: 35%;
+    display: inline-block;
+    text-decoration-color: white;
+    text-align: end;
+}
 
-    nav {
-        width: 35%;
-        display: inline-block;
-        text-decoration-color: white;
-        text-align: end;
-    }
-
-    a {
-        margin-right: 35px;
-        color: white;
-    }
+a {
+    margin-right: 35px;
+    color: white;
 }
 
 .background {
@@ -66,53 +66,152 @@ header {
         font-size: 18px;
     }
 
-    button{
-    background-color: #66BB6A;
-    color: white;
+    button {
+        background-color: #66BB6A;
+        color: white;
 
-    font-size: 20px;
+        font-size: 20px;
 
-    width: 250px;
-    height: 55px;
+        width: 250px;
+        height: 55px;
 
-    border-radius: 30px;
-    box-shadow: none;
+        border-radius: 30px;
+        box-shadow: none;
+    }
+
+    button:hover {
+        background: linear-gradient(to bottom right, #66BB6A, #14c41c);
     }
 }
 
+
+
+
 .cards {
     background-color: #F1F8E9;
-    text-align: center; 
+    text-align: center;
     padding-top: 18vh;
 }
 
 
 .card {
     background-color: #ffffff;
-    width: 21vw;
+    width: 22vw;
+    height: 80vh;
     text-align: center;
     border-radius: 15px;
-    display:inline-block; 
-    margin: 0px 30px;
+    display: inline-block;
+    margin: 0px 10px;
+
     img {
+        border: so;
         height: 300px;
-        width: 20.9vw;
+        width: 21.9vw;
         border-radius: 15px 15px 0 0;
-        
+
     }
+
     h3 {
         margin: 25px;
     }
+
     p {
-        margin: 10px 0px 15px;
-        font-size: 15px;
+        margin: 1px 0px 18px;
+        font-size: 12px;
     }
+
     button {
         background-color: #66BB6A;
-        padding: 18px 30px;
-        border: none;
+        padding: 9px 25px 8px;
         border-radius: 29px; // para arredondar o botão
-        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
         color: white;
+        width: 55%;
+        font-size: 24px;
+    }
+    button:hover {
+        background: linear-gradient(to bottom right, #66BB6A, #14c41c);
+    }
+}
+
+.formulario {
+    background-color: #E8F5E9;
+    height: 115vh;
+    width: 100%;
+    text-align: center;
+
+    fieldset{
+        padding-top: 15vh;
+        padding-bottom: 15vh;
+    }
+
+     h3 {
+        padding-top: 20vh;
+        font-size: 3rem;
+        
+    }
+
+    legend {
+        font-size: 28px;
+        width: 60%;
+    }
+
+    label {
+        font-weight: 700;
+        font-style: bold;
+        font-size: 24px;
+        display: flex;
+        padding-left: 15%;
+        margin-bottom: 3vh;
+    }
+
+    input {
+        width: 70%;
+        border-radius: 17px;
+        padding-bottom: 3vh;
+    }
+
+    input:placeholder-shown{
+        padding-left: 15px;
+        padding-top: 3px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    select {
+        height: 6vh;
+        width: 70%;
+        background-color: #FFFFFF;
+        padding-left: 3%;
+        font-size: 24px;
+        border-radius: 25px;
+        margin-bottom: 2%;
+    }
+
+    button {
+        margin-top: 10px;
+        background-color: #66BB6A;
+        color:white;
+        width: 70%;
+        height: 8vh;
+        font-size: 22px;
+        border-radius: 25px;
+    }
+    button:hover {
+        background: linear-gradient(to bottom right, #66BB6A, #14c41c);
+    }
+}
+
+
+footer {
+
+    background-color: #66BB6A;
+    text-align: center;
+    height: 13vh;
+    margin-top: 25vh;
+    color: #FFFFFF;
+
+    p{
+        padding-top: 5vh;
+        font-size: 18px;
     }
 }
